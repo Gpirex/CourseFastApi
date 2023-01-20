@@ -1,0 +1,17 @@
+Getting Started
+TODO: Guidance on how to upload the project:
+
+Installation process
+Get your access key and access secret in AWS console
+In order this project to work you will need the wise keys as well
+Create your environment variables according to .env.example.
+
+Install locally
+Create your virtual env.
+Install project requirements with commands:
+    pip install -r requirements.txt ou pip3 install -r requirements.txt.
+Running migrations:
+    alembic upgrade head -> to create and feed the tables with initial data.
+
+Start the project
+python main.py or python3 main.py
